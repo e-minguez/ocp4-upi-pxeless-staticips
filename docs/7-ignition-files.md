@@ -1,6 +1,6 @@
 # Ignition files
 
-Create the ignition files once the install-config.yaml file has been created:
+Create the ignition files once the `install-config.yaml` file has been created:
 
 ```bash
 openshift-install create ignition-configs \

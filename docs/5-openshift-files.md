@@ -1,6 +1,6 @@
 # OpenShift files
 
-Download and extract the `openshift-install` `and oc/kubectl` binaries into the
+Download and extract the `openshift-install` and `oc/kubectl` binaries into the
 helper node
 
 ```bash

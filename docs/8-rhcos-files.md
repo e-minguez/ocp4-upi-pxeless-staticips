@@ -1,6 +1,6 @@
 # RHCOS files
 
-Download the RHCOS iso, BIOS and UEFI image files:
+Download the RHCOS ISO, BIOS and UEFI image files:
 
 ```bash
 for asset in 'installer.iso' 'metal-bios.raw.gz' 'metal-uefi.raw.gz'; do

@@ -6,7 +6,7 @@ Upgrade to the latest bits:
 oc adm upgrade --to-latest
 ```
 
-If wanted to switch to any other channel (such as prerelease-4.1):
+To switch to any other channel (such as prerelease-4.1):
 
 ```bash
 oc patch \

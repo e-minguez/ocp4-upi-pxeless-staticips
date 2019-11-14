@@ -3,7 +3,7 @@
 `openshift-install` requires some files (pull secret and install-config) and
 creates some other assets (manifests, ignition files, logs, etc.). In order to
 have a proper directory structure, they will be stored in
-~/ocp-clusters/<cluster-name>:
+`~/ocp-clusters/<cluster-name>`:
 
 ```bash
 mkdir -p ~/ocp-clusters/${CLUSTER_NAME}/

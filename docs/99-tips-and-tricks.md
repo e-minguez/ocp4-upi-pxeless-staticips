@@ -104,7 +104,7 @@ oc get cm -n openshift-kube-apiserver config-ID \
   -o jsonpath='{.data.config\.yaml}' | jq
 ```
 
-For the OpenShift api configuration:
+For the OpenShift API configuration:
 
 ```bash
 oc get cm -n openshift-apiserver config -o jsonpath='{.data.config\.yaml}' | jq

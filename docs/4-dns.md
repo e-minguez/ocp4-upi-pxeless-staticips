@@ -124,7 +124,7 @@ $ sudo podman ps
 CONTAINER ID  IMAGE  COMMAND  CREATED  STATUS  PORTS  NAMES
 ```
 
-Then, modify `/etc/resolv.conf` to use the coredns container:
+Then, modify `/etc/resolv.conf` to use the CoreDNS container:
 
 ```bash
 sudo nmcli con mod 'System eno1' ipv4.ignore-auto-dns yes
